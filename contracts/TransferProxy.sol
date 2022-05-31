@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-import "./rarible./roles/OperatorRole.sol";
+import "./rarible/roles/OperatorRole.sol";
 import "@rarible/exchange-interfaces/contracts/INftTransferProxy.sol";
 
 contract TransferProxy is INftTransferProxy, Initializable, OperatorRole {
