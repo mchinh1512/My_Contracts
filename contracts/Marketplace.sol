@@ -1,8 +1,8 @@
 pragma solidity ^0.8.0;
 
-import "./ERC721/IERC721.sol";
+import "./OpenZeppelin/ERC721/IERC721.sol";
 
-import "./security/ReentrancyGuard.sol";
+import "./OpenZeppelin/security/ReentrancyGuard.sol";
 
 import "hardhat/console.sol";
 
